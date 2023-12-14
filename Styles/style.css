@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: rgb(30, 39, 46);
+    height:60px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.menueBar
+{
+    height: 100%;
+    width:60%;
+    padding: 8px 5px 8px 5px;
+    position: absolute;
+}
+.menue .nav-item
+{
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+.sub-menue .nav-item
+{
+    float: none;
+    display: none;
+    background-color: rgb(30, 39, 46);
+    text-align: center;
+    border-radius: 2px;
+    line-height: 25px;
+}
+.menue .nav-item:Hover .nav-item{
+    display: block;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 168, 1);
+    font-weight: bold;
+    font-size: 26px;
+}
+.nav-link:hover
+{
+    color: white;
+}
+.page-name
+{
+    float: left;
+    color: white;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+.name
+{
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+.logo
+{
+    float: left;
+    height: 100%;
+    width:15%;
+}
+.logo-image
+{
+    height: 55px;
+    width: 150px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 7px;
+    object-fit: contain;
+}
+
+.image1{
+    width: 100%;
+    height: 93vh;
+   background-image: url('../Images/mountainBGImg.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#line
+{
+    position: relative;
+    width: 75%;
+    height: 10px;
+    background-color: rgb(255, 168, 1);
+    border-radius: 15px;
+    margin: 0 auto;
+    top: 275px;
+    z-index: 0;
+}
+ .title
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.title-image1
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.981);
+    font-size: 78px;
+    line-height: 115px;
+    margin-top: 150px;   
+}
+.services
+{
+    width: 100%;
+    height: 285px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    margin-top: 50px;
+}
+.service
+{
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 95%;
+    margin-left: 45px;
+}
+.service-title
+{
+    position: absolute;
+    background-color: rgb(30, 39, 46,0.5);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+}
+.service-image
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.service-part2
+{   
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px 60px;
+    height: 180px;
+}
+.service-titleP2
+{
+    width: 35%;
+    height: 150px;
+    float: right;
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+.service-description
+{   
+    width: 95%;
+    height: 150px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 30px;
+}
+#btnService
+{
+    padding: 8px 12px 8px 12px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color:rgb(5, 67, 87);
+}
+#lbtnService
+{
+    font-weight: bold;    
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#lbtnService:hover 
+{
+    color: rgb(255, 168, 1);   
+}
+footer
+{
+    position: absolute;
+    background-color: rgb(30, 39, 46);
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    bottom: auto;
+} 
+footer .title
+{
+    padding: 10px;
+    float: right;
+    color: white;
+    width: 15%;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.footer-content
+{
+    color: rgb(255, 168, 1);
+    font-size: 20px;
+    text-align: right;
+    margin-right: 4px;
+}
+.footer-link
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 168, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 4px;
+   
+} 
+.footer-link:hover
+{
+    color: white;
+}  
+.flogo-image
+{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 35px;
+    object-fit: contain;
+}
+

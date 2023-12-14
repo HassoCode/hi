@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: rgb(30, 39, 46);
+    height:60px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.menueBar
+{
+    height: 100%;
+    width:60%;
+    padding: 8px 5px 8px 5px;
+    position: absolute;
+}
+.menue .nav-item
+{
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+.sub-menue .nav-item
+{
+    float: none;
+    display: none;
+    background-color: rgb(30, 39, 46);
+    text-align: center;
+    border-radius: 2px;
+    line-height: 25px;
+}
+.menue .nav-item:Hover .nav-item{
+    display: block;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 168, 1);
+    font-weight: bold;
+    font-size: 26px;
+}
+.nav-link:hover
+{
+    color: white;
+}
+.page-name
+{
+    float: left;
+    color: white;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+.name
+{
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+.logo
+{
+    float: left;
+    height: 100%;
+    width:15%;
+}
+.logo-image
+{
+    height: 55px;
+    width: 150px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 7px;
+    object-fit: contain;
+}
+
+.image1{
+    width: 100%;
+    height: 93vh;
+    background-image: url('../Images/loginBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title-image1
+{
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255);
+    font-size: 68px;   
+}
+.registrationFrm
+{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0,0.8);
+    top: 100px;
+    border-radius: 6px;
+}
+#line
+{
+    position: relative;
+    width: 75%;
+    height: 8px;
+    background-color: rgb(255, 168, 1);
+    border-radius: 15px;
+    margin: 0 auto;
+    top: 100px;
+    z-index: 0;
+}
+.tb
+{
+    position: relative;
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    top: 100px;
+    padding: 10px;
+    color: white;
+    
+}
+.label
+{
+    width: 30%;
+}
+.row
+{
+    line-height: 90px;
+}
+
+input
+{
+    font-size: 20px;
+}
+input:focus
+{
+    outline: none;
+    outline-color:   rgb(255, 168, 1);
+    outline-style: solid;
+    outline-width: 2px;
+}
+.inp
+{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn
+{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.btnAct
+{
+    padding: 8px 40px 8px 40px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 175px;
+    font-weight: bold;
+    font-size: 24px;
+    width: 68%;
+    color: rgb(30, 39, 46);
+    background-color: rgb(255, 168, 1);
+    cursor: pointer;
+}
+.btnAct:hover
+{
+    color: white;
+}
+.forgot-password
+{
+    position: relative;
+
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    top: 40px;
+}
+#forgot-passwordLink
+{
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+}
+#forgot-passwordLink:hover
+{
+    color:  rgb(255, 168, 1);
+}
+.underline
+{
+    position: relative;
+    margin: 0 auto;
+    top: 4px;
+    width:45%;
+    margin-right: 260px;
+    border-top: 2px solid;
+    border-color: white;
+}
+footer
+{
+    position: absolute;
+    background-color: rgb(30, 39, 46);
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    bottom: auto;
+} 
+footer .title
+{
+    padding: 10px;
+    float: right;
+    color: white;
+    width: 15%;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.footer-content
+{
+    color: rgb(255, 168, 1);
+    font-size: 20px;
+    text-align: right;
+    margin-right: 4px;
+}
+.footer-link
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 168, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 4px;
+   
+} 
+.footer-link:hover
+{
+    color: white;
+}  
+.flogo-image
+{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 35px;
+    object-fit: contain;
+}
